@@ -1,0 +1,87 @@
+body{
+
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.categoria__cabeçalho-titulo{
+
+font-size: 1.5em;
+font-weight: 600;
+margin-left: 10%;
+color: #ECA126;
+
+}
+
+.categoria__cabeçalho-titulo a{
+
+text-decoration: none;
+color: #ECA126;
+
+}
+
+.categoria__escolha-titulo{
+
+text-align: center;
+color: #262526;
+
+}
+
+.categorias{
+
+display: flex;
+
+}
+
+.categoria{
+
+margin-left: 5%;
+margin-right: 5%;
+    
+}
+
+.categoria__imagem-casa{
+
+width: 300px;
+height: 250px;
+
+}
+
+.categoria__imagem-lazer{
+
+width: 300px;
+height: 250px;
+
+}
+
+.categoria__imagem-tecnologia{
+
+width: 300px;
+height: 250px;
+    
+}
+
+.categoria__titulo{
+
+text-align: center;
+color: #262526;
+
+}
+
+main svg{
+
+display: block;
+
+}
+
+    @media(max-width: 768px){
+
+    .categorias{
+
+        flex-direction: column;
+        align-items: center;
+            
+    }
+
+
+}

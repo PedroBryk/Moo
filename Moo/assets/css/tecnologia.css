@@ -1,0 +1,184 @@
+.pagina__produto-cabeçalho{
+
+background-color: #ECA126;
+
+
+}
+
+.pagina__produto-cabeçalho svg{
+
+display: block;
+
+}
+
+.cabeçalho{
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.produtos__cabeçalho-titulo{
+
+font-size: 1.5em;
+font-weight: 600;
+margin-left: 10%;
+padding-top: 10px;
+
+}
+
+.produtos__cabeçalho-titulo a{
+
+color: #f8f8f8;
+text-decoration: none;
+
+}
+
+.produtos__escolha-titulo{
+
+text-align: center;
+color: #262526;
+font-size: 1.5em;
+
+}
+
+.produtos__escolha-imagem{
+
+margin-top: 10px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+
+.imagem__cabeçalho{
+
+width: 40%;
+margin: 0 auto;
+
+}
+
+.produtos{
+
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+margin-left: 4%;
+
+}
+
+.produto{
+
+width: 30%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 6%;
+background-color: #f8f8f8;
+border-radius: 30px;
+
+}
+
+.produto__imagem{
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+
+.produto__imagem-produto{
+
+width: 50%;
+height: 50%;
+
+}
+
+.produto__nome{
+
+font-size: .8em;
+color: #262526;
+
+}
+
+.produto__descriçao{
+
+font-size: 1em;
+color: #262526;
+text-align: center;
+width: 70%;
+
+}
+
+.produto__comprar{
+
+border: none;
+background-color: #ECA126;
+border-radius: 30px;
+height: 40px;
+cursor: pointer;    
+    
+}
+
+.produto__comprar a{
+
+text-decoration: none;
+color: #262526;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+.produto__conversar{
+
+margin-top: 10px;
+border: none;
+margin-bottom: 10px;
+background-color: #ECA126;
+border-radius: 30px;
+height: 40px;
+cursor: pointer;
+transition: 1s;
+
+}
+
+.produto__conversar:hover{
+
+background-color: #d38200;
+
+}
+
+.produto__conversar a{
+
+text-decoration: none;
+color: #262526;
+
+}
+
+.produtos__rodape{
+
+background-color: #fff;
+
+}
+
+    @media(max-width: 768px){
+
+        .produtos{
+
+            flex-direction: column;
+            margin-left: 0;
+
+        }
+
+        .produto{
+
+            width: 90%;
+            margin-top: 10%;
+
+        }
+
+    }

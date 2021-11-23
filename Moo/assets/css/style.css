@@ -1,0 +1,327 @@
+body{
+
+font-family: 'Poppins', sans-serif;
+
+}
+
+.index__cabeçalho{
+
+background-color: #ECA126;
+
+}
+
+.index__cabeçalho svg{
+
+display: block;
+
+}
+
+.navegaçao{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 10%;
+
+}
+
+.titulo{
+
+color: #f8f8f8;
+font-size: 1.5em;
+font-weight: 600;
+
+}
+
+.navegaçao__nav{
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-right: 10%;
+
+}
+
+.item, .item-disable{
+
+padding-left: 20px;
+list-style: none;
+
+}
+
+.item-disable a{
+
+text-decoration: none;
+color: #262526;
+
+}
+
+.item a{
+
+text-decoration: none;
+color: #262526;
+
+}
+
+.item a:hover{
+
+color: #f8f8f8;
+
+}
+
+.conteudo{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.explica{
+
+margin-left: 8%;
+width: 50%;
+
+}
+
+.explica__titulo{
+
+font-size: 1.8em;
+color: #262526;
+
+}
+
+.explica__titulo span{
+
+color: #f8f8f8;
+
+}
+
+.explica__conteudo p{
+
+font-size: 1.5em;
+
+}
+
+.imagem{
+
+width: 50%;
+margin-left: 8%;
+
+}
+
+#funciona__titulo{
+
+color: #ECA126;
+text-align: center;
+font-size: 1.5em;
+
+}
+
+.funciona{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.funciona__explica{
+
+width: 60%;
+margin-right: 10%;
+
+}
+
+.funciona__explica-titulo{
+
+font-size: 1.5em;
+color: #262526;
+
+}
+
+.funciona__explica-conteudo p{
+
+font-size: 1.5em;
+color: #262526;
+
+}
+
+.imagem__funciona{
+
+width: 70%;
+
+}
+
+.funciona__garante-titulo{
+
+margin-left: 10%;
+font-size: 1.5em;
+color: #262526;
+
+}
+
+.passos{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 8%;
+
+}
+
+.passo__titulo{
+
+color: #ECA126;
+text-align: center;
+font-size: 1.5em;
+
+}
+
+.passo{
+
+margin-left: 5%;
+margin-right: 5%;
+
+}
+
+.passo__imagem{
+
+width: 25%;
+
+}
+
+.passo__imagem-escolha{
+
+width: 300px;
+height: 250px;
+
+}
+
+.passo__imagem-pagamento{
+
+width: 300px;
+height: 250px;
+
+}
+
+.passo__imagem-local{
+
+width: 300px;
+height: 250px;
+
+}
+
+.passo__explica{
+
+color: #262526;
+text-align: center;
+width: 80%;
+
+}
+
+footer{
+
+background-color: #ECA126;
+
+}
+
+footer svg{
+
+display: block;
+
+}
+
+.direitos{
+
+text-align: center;
+background-color: #ECA126;
+padding-bottom: 10px;
+
+}
+
+@media(max-width: 768px){
+
+    .navegaçao{
+
+        flex-direction: column;
+        margin-left: 0;
+
+    }
+
+    .item-disable{
+
+        display: none;
+
+    }
+
+    .conteudo{
+
+        flex-direction: column;
+
+    }
+
+    .explica{
+
+        width: 80%;
+        margin-left: 0;
+        
+        }
+
+    .imagem{
+
+        display: none;
+            
+        }
+
+    #funciona__titulo{
+
+        font-size: 1em;
+            
+    }
+
+    .funciona{
+
+        flex-direction: column;
+
+    }
+
+    .funciona__explica{
+
+        width: 80%;
+        margin-right: 0;
+        
+    }
+
+    .imagem__funciona{
+
+        width: 90%;
+        
+        } 
+
+    .passos{
+
+        flex-direction: column;
+
+    }
+
+}
+
+@media(max-width: 1024px){
+
+    .imagem{
+
+        margin-left: 0;
+            
+    }
+
+    .imagem__funciona{
+
+        width: 40%;
+        margin-left: 10%;
+            
+    }
+
+
+
+}
